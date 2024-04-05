@@ -1,0 +1,30 @@
+/* Font Sizes */
+html {
+    font-size: 16px; /* Base font size */
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 20px; /* Increase font size for larger screens */
+    }
+}
+
+/* Focus Styles */
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb; /* Custom focus style */
+}
+
+/* Body Styles */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 80px; /* Add space at the bottom of the body */
+    background-color: lightgray; /* Set background color */
+}
